@@ -27,10 +27,14 @@ marked.setOptions({
 });
 ```
 
-## add highligt css
+## step3: add highligt css
 
 `www/index.html`
 
 ```
 <link rel="stylesheet" href="css/highlight/styles/default.css">
 ```
+
+## step4: change code line-height
+
+`screen.css` add `line-height: 20px;` to `pre`
