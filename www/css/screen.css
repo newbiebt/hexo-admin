@@ -252,14 +252,11 @@ pre {
     overflow: auto;
     background: #F7FAFB;
     border-radius: 3px;
+    line-height: 20px;
 }
 
 pre .line {
   height: 20px;
-}
-
-pre span {
-    height: 20px;
 }
 
 pre code, tt {
