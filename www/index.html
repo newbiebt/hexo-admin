@@ -11,4 +11,16 @@
 <script src="bundle.js"></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
 </head>
+<script>
+window.onresize = function () {
+    var wh = document.documentElement.clientHeight; 
+    var eh = document.getElementById('appId_header').offsetHeight;
+    document.getElementById('appId_main').style.maxHeight = (wh - eh) + "px";
+}
+window.onload = function(){
+    var wh = document.documentElement.clientHeight; 
+    var eh = document.getElementById('appId_header').offsetHeight;
+    document.getElementById('appId_main').style.maxHeight = (wh - eh) + "px";
+}
+</script>
 </html>
